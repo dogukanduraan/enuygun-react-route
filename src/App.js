@@ -19,7 +19,9 @@ function App() {
   }
 
   function isEnabledButton() {
-    let last = routes.at(routes.length - 1);
+    const last = routes.at(routes.length - 1);
+
+    console.log("wqweqwe");
     return (
       routes.length < 1 ||
       last.isim === "" ||
